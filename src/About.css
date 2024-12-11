@@ -1,0 +1,70 @@
+.about {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content-text {
+  font-size: 1.5rem;
+  line-height: 140%;
+  margin: 1rem 0;
+  color: rgb(65, 64, 64);
+}
+.google-ai-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.about-content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.register_label {
+  position: relative;
+  input {
+    height: 2rem;
+    /*background-color: #ffffff;*/
+    border-radius: 0.25rem;
+    border: 1px solid rgb(65, 64, 64);
+  }
+  select {
+    height: 2rem;
+    /*background-color: #ffffff;*/
+    border-radius: 0.25rem;
+    border: 1px solid rgb(65, 64, 64);
+  }
+}
+.button {
+  width: 90%;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #333;
+  color: white;
+  margin: 1rem;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.error-message {
+  position: absolute;
+  top: 2rem;
+}
+@media (min-width: 44rem) {
+  .about {
+    padding: 4.5rem;
+  }
+  .google-ai-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+}

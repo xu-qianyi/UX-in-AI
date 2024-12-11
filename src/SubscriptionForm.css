@@ -1,0 +1,116 @@
+.required {
+  color: red;
+}
+
+.subscription-form {
+  margin: 2rem 0 1rem 0;
+  background-color: #5454540c;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  /* width: 50%; */
+}
+
+.form-title {
+  font-size: 1.25rem;
+  color: #333;
+}
+.form-title h2 {
+  text-align: left;
+}
+
+.form-instruction {
+  font-size: 1rem;
+  color: #666;
+
+  margin-bottom: 20px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+}
+
+.register_label {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.register_label input {
+  margin-top: 5px;
+}
+
+.register_label select {
+  margin-top: 5px;
+}
+
+.register_label.checkbox {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.register_specify-label,
+.register_name-label,
+.register_email-label,
+.register_confirm-email-label {
+  white-space: nowrap;
+}
+
+.error-message {
+  color: red;
+  display: none;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.visible {
+  display: block;
+}
+
+.register_button {
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+}
+
+button:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 44rem) {
+  .register_label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+    width: 90%;
+  }
+
+  .register_label input,
+  .register_label select {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 10px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+    width: auto;
+  }
+
+  .register_confirm-email-label,
+  .register_select-label,
+  .register_specify-label {
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffffb3;
+
+  border: 1px solid rgb(241, 241, 241);
+
+  backdrop-filter: blur(12px);
+}
+
+.header__logo {
+  width: 160px;
+}
+
+.header__nav {
+  color: black;
+}

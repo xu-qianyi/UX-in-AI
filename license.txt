@@ -1,0 +1,28 @@
+# Personally owned Images
+
+logo.svg
+Auto-fill.png
+Follow-up.png
+Inline-action.png
+madlibs.png
+suggestions.png
+
+
+
+
+#Photo from Unsplash
+Ai-art-1: https://unsplash.com/photos/a-colorful-abstract-background-with-wavy-lines-Ac02zYZs22Y
+
+Ai-art-2: https://unsplash.com/photos/an-abstract-painting-of-blue-and-red-colors-uAvq7gFQecc
+
+Ai-art-3: https://unsplash.com/photos/an-abstract-background-of-blue-green-and-yellow-colors-ZNkiEWL02mI
+google-deepmind-GVGnKgEomlw-unsplash.jpg
+
+#google-open-source-icon
+Hamburger-icon.png
+Left-arrow.png
+Right-arrow.png
+Minus-icon.png
+Plus-icon.png
+Ai-icon.png
+Input-icon.png

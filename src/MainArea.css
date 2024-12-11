@@ -1,0 +1,81 @@
+.main-area {
+  text-align: left;
+}
+.main-introduction {
+  padding: 2rem;
+}
+.main-title {
+  color: #1a1b1f;
+  max-width: 24em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.main-description {
+  font-size: 1.6em;
+  line-height: 160%;
+  color: #858585;
+  text-align: center;
+}
+
+.main-content {
+  background-color: #f6f6f6;
+  display: grid;
+}
+
+.icons {
+  width: 48px;
+  height: 48px;
+}
+.design-sections {
+  padding: 2rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  color: #626262;
+  font-weight: 300;
+  justify-content: left;
+}
+.pattern-section__panel {
+  grid-column: span 12;
+  display: flex;
+  flex-direction: row;
+  padding: 1.8rem 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  border: 1px solid #e9e9e9;
+  gap: 1.5rem;
+}
+.pattern-sections {
+  padding: 2rem;
+
+  display: flex;
+  color: #626262;
+  font-weight: 300;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  gap: 0.5rem;
+}
+.pattern-section-content h3 {
+  margin: 0;
+  line-height: 160%;
+}
+.pattern-section-content p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.pattern-section__cards {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 44rem) {
+  .main-introduction {
+    padding: 4rem;
+  }
+}

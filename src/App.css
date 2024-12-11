@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 140%;
+  color: #1a1b1f;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #1a1b1f;
+  font-weight: 600;
+}
+
+.app {
+  font-family: "Figtree", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+@media (min-width: 44rem) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 140%;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+}
